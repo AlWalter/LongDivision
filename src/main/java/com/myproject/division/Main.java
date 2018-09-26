@@ -1,4 +1,4 @@
-package main.java.com.myproject.division;
+package com.myproject.division;
 
 import java.util.Scanner;
 
@@ -8,7 +8,8 @@ public class Main {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter devidend and divider");
 		int dividend = input.nextInt();
-        int divider = input.nextInt();
-		System.out.println(new Division().divideTwoInt(dividend,divider));
+		int divider = input.nextInt();
+		System.out.println(new Division().divideTwoInt(dividend, divider));
+		input.close();
 	}
 }
